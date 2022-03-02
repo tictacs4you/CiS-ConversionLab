@@ -19,10 +19,12 @@ public class test {
 			int option = in.nextInt();
 			switch(option) {
 				case 1:
-					F2C();
+					temp = convertFarenheitToCelsius(value);
+					System.out.println("Temperature in degrees is " + temp);
 					break;
 				case 2:
-					C2F();
+					temp = convertCelsiusToFarenheit(value);
+					System.out.println("Temperature in degrees is " + temp);
 					break;
 				case 3:
 					continueProgram = false;
